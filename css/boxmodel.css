@@ -1,0 +1,66 @@
+*{
+    div
+
+}
+body{
+    background-color: #f2f2f2;
+    color: #242424;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: "lora", sans-serif;
+    background-image: url("../images/hinh-nen-may-tinh-4k-11.jpg");
+    background-size: cover;
+}
+.item{
+    width: 350;
+    height: 350;
+    border: 1px solid darkred;/*size type color: type: solid dotted dashed */
+    float:left;/* dồn khối*/
+    margin: 10px 15px 20px 25px;
+    /*margin-top 10px
+    margin-right 15px
+    margin-bottom 20px
+    margin-left 25px
+    khoảng cách giữa từng khối
+     */
+    padding: 15px; /* khoảng cách trong từng khối*/
+    box-sizing: border-box;/* làm kích thước tính từ border trở vào*/
+    overflow: hidden;/* không cho nd vượt khỏi khối  */
+    box-shadow: 10px 10px 10px red; /* bóng dưới-bóng phải-độ-nhòe bóng-màu bóng*/
+    border-radius: 100px; /* bo góc*/
+}
+#special{
+    background-color: #EEE8AA;
+}
+#special p{ /* tác động đến những phần tử p nằm trong khu vực của id special */
+
+}
+
+/*
+    Nguyên lý ưu tiên
+    thẻ < cha thẻ < .class < cha .class < #id < cha #id
+    -> nếu cùng cấp thì cấp độ của cha cao hơn và rõ ràng hơn thì ưu tiên cao hơn
+    -> nếu đối tượng y hệt nhau -> ưu tiên cái viết sau
+ */
+.item #pt-gold{ /* LV 6 */
+    color:yellow;
+}
+#pt-gold{ /* LV 5 */
+    color: orangered;
+}
+.item .pt{ /* LV 4 */
+    color: goldenrod;
+}
+.pt{ /* LV 3 */
+    color:pink;
+}
+div p{ /* LV 2 */
+    color:blue;
+}
+p{ /* LV 0 */
+    color: green ;
+}
+p{ /* LV 1 */
+    color:red;
+}

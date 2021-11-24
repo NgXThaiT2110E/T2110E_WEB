@@ -1,0 +1,153 @@
+* {
+
+}
+body{
+    width: 820px;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'lora', sans-serif;
+    background-image: url("../images/hinh-nen-may-tinh-4k-11.jpg");
+    background-size: cover;
+    display: flex;
+    margin: auto;
+}
+.bodycv{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.bodycv .name-group{
+    background-color: #c5cec3;
+    height: 150px;
+    letter-spacing: 2px;
+}
+.bodycv .name-group p{
+    margin-left: 250px;
+    padding-top: 50px;
+}
+.bodycv .cv{
+    background-color: #ffffff;
+    height: 880px;
+    width: 200px;
+    margin-top: -120px;
+    margin-left: 20px;
+    position: relative;
+}
+.bodycv .cv .tieude{
+    margin-left: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.bodycv .cv .number{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .mail{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .home{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .web{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv hr{
+    width: 180px;
+}
+.bodycv .cv .tieude2{
+    margin-left: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.bodycv .cv .tieude2-1{
+    margin-left: 8px;
+    font-size: 15px;
+}
+.bodycv .cv .tieude2-2{
+    margin-left: 8px;
+    font-size: 15px;
+}
+.bodycv .cv .tieude3{
+    margin-left: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.bodycv .cv .p1{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .p2{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .p3{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .p4{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .cv .p5{
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.bodycv .dsr-group{
+    background-color: #f2f2f2;
+    margin-top: -800px;
+    height: 770px;
+}
+.bodycv .dsr-group .tieude4{
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-top: 35px;
+}
+.bodycv .dsr-group .dcs-prf{
+    margin-left: 250px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top:5px ;
+}
+.bodycv .dsr-group hr{
+    width: 550px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.bodycv .dsr-group .prf-exp{
+    margin-left: 250px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.bodycv .dsr-group .title1{
+    margin-left: 250px;
+}
+.bodycv .dsr-group .dcr-job1{
+    margin-left: 250px;
+}
+.bodycv .dsr-group ul{
+    margin-left: 250px;
+}

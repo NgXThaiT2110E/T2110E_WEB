@@ -9,7 +9,6 @@ body{
     font-family: 'lora', sans-serif;
     background-image: url("../images/hinh-nen-may-tinh-4k-57.jpg");
     background-size: cover;
-    display: flex;
     margin: auto;
 }
 .bodycv{

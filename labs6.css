@@ -1,0 +1,63 @@
+body{background-color: #aaaaaa}
+.body{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px dimgrey;
+    position: absolute;
+    top:20%;
+    right: 30%;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.z{
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.x{
+    padding: 30px 20px 0px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.v{
+    padding: 20px 20px 0px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.a{
+    margin-top: 30px;
+    line-height: 1.5;
+    float: left;
+    position: absolute;
+    left: 20px;
+}
+.b{
+    margin-top: 30px;
+    margin-left: 20px;
+    line-height: 1.5;
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+.ab{
+    float: left;
+    position: absolute;
+    left: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+.ad{
+    float: right;
+    position: absolute;
+    right: 22px;
+    border-radius: 10px 10px 0px 0px;
+}
+h2{text-indent: 20px}
+.sub{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.mn{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}

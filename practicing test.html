@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Practicing test</title>
-    <link rel="stylesheet" href="css/practicing%20test.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/css/practicing%20test.css" />
+    <title>practicing</title>
 </head>
 <body>
-<header class="header section">
+<div class="wrapper">
     <div class="container">
-        <div class="logo">
-            <h1>register</h1>
+        <div class="header-container">
+            <i class="fas fa-id-card"></i>
+            <p>REGISTER</p>
+        </div>
+        <div class="body-container">
+            <div class="body-wrapper">
+                <div class="input">
+                    <div class="icon-input">
+                        <i class="far fa-user"></i>
+                    </div>
+                    <input type="text" placeholder="Username required" />
+                </div>
+                <div class="input">
+                    <div class="icon-input">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input type="password" placeholder="Password required" />
+                </div>
+                <div class="input">
+                    <div class="icon-input">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <input type="password" placeholder="Confirm password required" />
+                </div>
+                <div class="input">
+                    <div class="icon-input">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <input type="email" placeholder="E-mail" required />
+                </div>
+                <div class="input-check">
+                    <input type="checkbox" placeholder=/>
+                    <p>I agree to the <span>Terms of Service</span></p>
+                </div>
+                <div class="footer-container">
+                    <div class="sign-up">
+                        <button type="submit">SIGN UP</button>
+                    </div>
+                    <div class="login">
+                        <p>Already a member ? <a href="#">Login Here</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</header>
-<section class="main section">
-    <div class="container">
-        <form method="get" action="#">
-            <div class="nhap">
-                <label>username</label>
-                <input type="text" name="username" placeholder="Username" required/>
-            </div>
-            <div class="nhap">
-                <label>Password</label>
-                <input type="password" name="pwd" placeholder="Enter Password" required/>
-            </div>
-            <div class="nhap">
-                <label>Enter the Password</label>
-                <input type="password" name="pwd" placeholder="Enter Password" required/>
-            </div>
-            <div class="nhap">
-                <label>Email</label>
-                <input type="email" name="email" placeholder="Enter email" required/>
-            </div>
-                <label><input type="checkbox" name="confirm"/> I agree to the Terms of Servicee</label>
-            <div class="xong"><button type="submit">SIGN UP</button></div>
-            <p>Already a member?</p><p style="float: left"><a href="#">Login Here</a></p>
-        </form>
-    </div>
-</section>
+</div>
 </body>
 </html>

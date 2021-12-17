@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3cd3ed5-d8a1-4827-9586-f7dc72a49a22" name="Changes" comment="up code">
-      <change afterPath="$PROJECT_DIR$/JS/assignment1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment1JS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment2JS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment4JS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment5JS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/assigment2js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/assigmentjs5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/assignment4js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoJS.html" afterDir="false" />
+    <list default="true" id="e3cd3ed5-d8a1-4827-9586-f7dc72a49a22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/practicing test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practicing test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/boxmodel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/boxmodel.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +71,7 @@
       <workItem from="1638788009009" duration="2009000" />
       <workItem from="1639393652400" duration="4033000" />
       <workItem from="1639720674021" duration="3332000" />
-      <workItem from="1639725974708" duration="3653000" />
+      <workItem from="1639725974708" duration="9417000" />
     </task>
     <task id="LOCAL-00001" summary="up code">
       <created>1637328159220</created>
@@ -174,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638514271791</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="up code">
+      <created>1639729767696</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639729767696</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

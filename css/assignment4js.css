@@ -1,0 +1,45 @@
+#content{
+    width: 1360px;
+    margin:0 auto;
+    height: 2000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/hinh-nen-may-tinh-4k-11.jpg");
+    background-size: cover;
+}
+.block{
+    width: 240px;
+    height: 190px;
+    background-color: honeydew;
+    float: left;
+    margin: 30px;
+}
+.timeanddate{
+    height: 10%;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+}
+.tempvsicon{
+    margin-top: 10px;
+    width: 100%;
+    height: 50%;
+}
+.temp{
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.icon{
+    height: 100%;
+    width: 50%;
+    float: right;
+}

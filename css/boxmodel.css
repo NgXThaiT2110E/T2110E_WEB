@@ -218,7 +218,7 @@ p:hover{
 #special{
     animation:light2;
     animation-duration: 3s;
-    animation-iteration-count: 2;/* infinite */
+    animation-iteration-count: 2;/* infinite vinh vien*/
 }
 @keyframes light {
     from{
